@@ -1,0 +1,17 @@
+name: DoubleJump
+version: 1.0
+author: Clxud
+main: me.cloud.doublejump.Plugin
+prefix: DJ
+api-version: 1.19
+depend: [WorldGuard]
+softdepend:
+    - PlaceholderAPI
+
+commands:
+    doublejump:
+        description: Toggle double jump mode
+        usage: /<command> [off/on]
+        aliases: [dj]
+
+    
